@@ -1,0 +1,15 @@
+---
+# Español
+es:
+  PLUGIN_WEB_MONETIZATION:
+    POINTER: Apuntador
+
+# English
+en:
+  PLUGIN_WEB_MONETIZATION:
+    POINTER: Pointer
+
+# French
+fr:
+  PLUGIN_WEB_MONETIZATION:
+    POINTER: Pointeur

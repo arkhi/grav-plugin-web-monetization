@@ -1,0 +1,34 @@
+---
+name: Web Monetization
+version: 0.1.0
+description: Implements Web Monetization on the website.
+icon: money
+author:
+  name: Fabien Basmaison
+  email: contact@arkhi.org
+  url: https://arkhi.org/
+homepage: https://framagit.org/arkhi/grav-plugin-web-monetization
+keywords: grav, plugin, monetization, revenue
+bugs: https://framagit.org/arkhi/grav-plugin-web-monetization/issues
+docs: https://framagit.org/arkhi/grav-plugin-web-monetization/blob/master/README.md
+license: MIT
+dependencies:
+  - {name: grav, version: '>=1.6.0'}
+
+form:
+  validation: strict
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    pointer:
+      type: text
+      label: PLUGIN_WEB_MONETIZATION.POINTER
