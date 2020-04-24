@@ -6,7 +6,17 @@ It adds a meta tag on the website pointing to the wallet that will receive the p
 
 ## Installation
 
-Installing the Web Monetization plugin can be done with git or a zip file.
+Installing the Web Monetization plugin can be done in one of four ways: with <abbr title="Grav Package Manager">GPM</abbr>, git, a zip file or the Admin Plugin.
+
+### <abbr>GPM</abbr> Installation (Preferred)
+
+To install the plugin via the [<abbr>GPM</abbr>](http://learn.getgrav.org/advanced/grav-gpm), through your system’s terminal (also called the command line), navigate to the root of your Grav installation, then enter:
+
+```shell
+bin/gpm install web-monetization
+```
+
+This will install the Web Monetization plugin into the `user/plugins/web-monetization` directory at the root of your Grav installation.
 
 ### Git Installation
 
@@ -18,7 +28,11 @@ cd user/plugins && git clone git@framagit.org:arkhi/grav-plugin-web-monetization
 
 ### Zip file Installation
 
-To install the plugin manually, download the zip version of this repository and unzip it in the `user/plugins` directory. Then rename the directory to `web-monetization`. You can find these files on [Gitlab](https://framagit.org/arkhi/grav-plugin-web-monetization).
+To install the plugin manually, download the zip version of this repository and unzip it in the `user/plugins` directory. Then rename the directory to `web-monetization`. You can find these files on [Gitlab](https://framagit.org/arkhi/grav-plugin-web-monetization) or via [GetGrav.org](http://getgrav.org/downloads/plugins#extras).
+
+### Admin Plugin
+
+If you use the Admin Plugin, you can install the plugin directly by browsing the `Plugins`-menu and clicking on the `Add` button.
 
 ---
 
